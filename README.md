@@ -1,18 +1,8 @@
-# create-svelte
+# FlagShip Client Demo
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This demo application uses [FlagShip](https://github.com/anoop-b/flagship) for feature toggling. The application is hosted on cloudflare pages and makes use of server side feature flag evaluation and dynamic rendering of content based on the evaluation (SSR).
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Hop over to `AWS` branch for a demo using LaunchDarkly where I demonstrate the effect of caching.
 
 ## Developing
 
@@ -34,5 +24,3 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
