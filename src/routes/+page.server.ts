@@ -5,7 +5,7 @@ export const load = (async (events) => {
 	const kv = events.platform?.env.KV;
 	const start = performance.now();
 	const flags = await kv?.get('flagShip');
-	const ts = (performance.now()- start).toPrecision(3)
+	const ts = (performance.now() - start).toPrecision(3);
 	if (flags) {
 		const boolFlag = extractFlagValue(flags, 'isWinter', 'prod');
 		return {
