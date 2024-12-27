@@ -6,6 +6,12 @@ Hop over to `AWS` branch for a demo using LaunchDarkly where I demonstrate the e
 
 ## Developing
 
+Ensure to set the following env variable, you can get it from LaunchDarkly's Dashboard after signing up:
+
+```bash
+LD_SDK_KEY="sdk-349834fb-8630-2d9e-9946-314cba4a5c9e"
+```
+
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
